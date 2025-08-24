@@ -13,8 +13,8 @@
     <section class="header">
       <nav>
         <a href="index.html"><img class="logo" src="images/pngegg (1).png"></a>
-        <div class="nav-links">
-          <i class="fa fa-times"></i>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
@@ -23,7 +23,7 @@
             <li><a href="">CONTACT</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars"></i>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
 
     <div class="text-box">
@@ -37,7 +37,62 @@
 
     </section>
 
+    <!----- Service ---->
 
+    <section class="service">
+        <h1>Services We Offer</h1>
+        <p>we are reneonwed construction company in Africa</p>
+
+        <div class="row">
+          <div class="service-col">
+            <h3>Residential Construction</h3>
+            <p>We create modern, durable, and comfortable homes designed to fit 
+              your lifestyle, from single-family houses to multi-unit apartments.
+               We deliver living spaces that stand the test of time.  
+            </p>
+          </div>
+          <div class="service-col">
+            <h3>Commercial Projects</h3>
+            <p>From offices to warehouses, we build functional and efficient 
+              spaces that drive business growth and meet industry standards 
+              through integrating advanced technologies and best practices. 
+            </p>
+          </div>
+          <div class="service-col">
+            <h3>Road & Bridge Construction</h3>
+            <p>From highways to rural access roads, and pedestrian bridges 
+              to large-scale transport networks, We deliver safe, and long-lasting roads and bridges 
+              that connect communities and support economic development. 
+            </p>
+          </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!------ Javascript for Toggle Menu--------> 
+    <script>
+
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+          navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+          navLinks.style.right = "-200px";
+      }
+
+    </script>
 
 
     
