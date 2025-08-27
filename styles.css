@@ -109,7 +109,7 @@ nav .fa {
 }
 .nav-links {
   position: fixed;
-  background: #f44336;
+  background: black;
   height: 100vh;
   width: 200px;
   top: 0;
@@ -442,7 +442,7 @@ padding: 100px 0;
 }
 
 .blog-left img {
-  width: 380px;
+  width: 100%;
 }
 
 .blog-left h2{
